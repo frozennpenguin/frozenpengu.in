@@ -4,7 +4,7 @@ from shutil import rmtree
 from jinja2 import Environment, PackageLoader
 
 def read_file(page):
-    return markdown_path(f'content/{page}.md', extras=['markdown-in-html', 'metadata'])
+    return markdown_path(f'content/{page}.md', extras=['markdown-in-html', 'tables',  'metadata'])
 
 def write_file(page, html):
     with open(f'public/{page}.html', 'w') as file:
@@ -21,7 +21,7 @@ def make_page(page):
     content_html = read_file(page)
     page_html = render_jinja('default', content_html)
     write_file(page, page_html)
-
+ 
 
 pages = [{'name': os.path.splitext(page)[0]} for page in os.listdir('content')]
 env = Environment(loader=PackageLoader('main', 'templates'))

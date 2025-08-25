@@ -3,6 +3,7 @@
     --pg-color:#1e1e2e;
     --accent:#6c7086;
     --accent2: #26263c;
+    --accent3: #4c536e;
     --txt-color: #a6adc8;
     --color: rgb(30, 30, 46);
     --dark: #13131c;
@@ -14,7 +15,12 @@
     color: var(--txt-color);
 }
 ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.card ::-webkit-scrollbar{
     width: 6px;
+    height: 6px;
 }
 ::-webkit-scrollbar-thumb {
     background-color: var(--accent);
@@ -24,47 +30,56 @@
 }
 body{
     background-color: var(--bg-color);
-    overflow-y: scroll;
+    overflow: auto;
+    overscroll-behavior: none;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 1.5px solid var(--accent3);
+    padding: 7px
+}
+.wrapper{
+    display: flex;
 }
 .page{
-    width: 80%;
-    margin: 30px 20%;
-    overflow: auto;
+    width:100%;
+    margin: 20px;
 }
-
 .card{
     border: 1px solid var(--accent);
-    box-shadow: 8px 8px #24243aa4;
+    box-shadow: 9px 9px #24243aa4;
     position: relative;
 }
-
 .head{
     background-color: #26263c;
     border: 1px solid var(--accent);
-    border: 1px solid #4c536e;
+    border: 1px solid var(--accent3);
     padding: 10px 20px;
 }
-
 .head p{
     margin: 0px;
 }
-
 .card_body{
-    background-color: #1e1e2ee6;
+    background-color: rgba(30, 30, 46, 0.9);
     padding: 0px 20px;
     border: 1px solid var(--accent);
     border: 1px solid #4c536e;
     overflow-y: scroll;
 }
+.subsection{
+    background-color: #303048e6;
+    padding: 0px 17px;
+    margin: 7px;
+}
 
 .side {
-    position: fixed;
-    margin-left: 30px;
-    width: 15%;
+    width: 270px;
+    margin: 20px;
 }
+
 nav {
     padding: 5px;
-    background: var(--pg-color);
+    background: rgba(30, 30, 46, 0.9);
     border: 2px solid #4c536e;
     box-shadow: 8px 8px #24243aa4;
 }

@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<link rel="stylesheet" href="/css/star.css">-->
     <link rel="stylesheet" href="/css/style.css">
+    <!--<script src="/scripts/star.js"></script>-->
 <body>
-    {% include 'side.html' %}
-    <!--<p>{{meta.desc}}</p>-->
-    <div class="page">
+    <div class="wrapper">
+        {% include 'side.html' %}
+        <!--<p>{{meta.desc}}</p>-->
+        <div class="page">
         {{ content }}
+        </div>
     </div>
 </body>
 </html>

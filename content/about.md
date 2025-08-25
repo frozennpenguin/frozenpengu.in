@@ -3,84 +3,100 @@ title: about
 desc: what is this?
 ---
 
-<div class='card' markdown='1'" style="width: 450px">
+<div class='card' markdown='1' style="width: 460px;">
 <div class='head' markdown='1'>hello</div>
-<div class='card_body' markdown='1' style="height: 270px">
+<div class='card_body' markdown='1' style="height: 270px;">
 hi!
 
-i made a website :)
+i made a website :]
 
-i am an intp 5w4
+its also a mess and idk where to go from here :[ but anyways
 
-# i like:
+i am an intp 5w4 chronic procrastinator with too many interests
+
+<div markdown='1' style="display: flex; flex-wrap: wrap; justify-content: center; margin: 0px 0px 1em 0px;">
+<div class='subsection' markdown='1'>
+
+# stuff i do:
 
 - coding
-- drawing/painting/art
+- drawing & painting
 - robotics
-- wikipedia
 - reading books
+</div>
+
+<div class='subsection' markdown='1'>
+
+# likes:
+
 - cats
 - udon
 - rain
+- emoticons
+</div>
 
-# i am working on:
+<div class='subsection' markdown='1'>
 
-- trying to learn japanese
-- learning cad?
-- more stuff probably (hopefully)
-- procrastinating
+# trying to learn:
+
+- japanese
+- 3d modeling
+- guitar
+- go
+</div>
+
+<div class='subsection' markdown='1'>
+
+# some interests:
+
+- computer science
+- linguistics
+- spaaaaace ⁭◉ _ ◉
 </div>
 </div>
 
-<div class='card' markdown='1' style="width: 550px; left:350px; top:-120px">
-<div class='head' markdown='1'>animanga</div>
-<div class='card_body' markdown='1' style="height: 250px">
-# shows
+</div>
+</div>
 
+<div class='card' markdown='1' style="width: 330px; left:430px; top:-120px; z-index:1">
+<div class='head' markdown='1'>fav animanga series</div>
+<div class='card_body' markdown='1'>
 - death note
-- bungo stray dogs
-- tokyo ghoul (manga)
+- bungo stray dogs (manga -_-)
+- tokyo ghoul (manga ☠)
 - monster
-- attack on titan
 - demon slayer
 - jujustu kaisen
 - vanitas no carte
-
-# studio ghibli
-
-- ponyo
-- princess mononoke
-- the wind rises
-- spirited away
-- castle in the sky
-- the boy and the heron
-- nausicaa (i watched it when i was very young and it gave me strange nightmares)
-- the cat returns
-- howls moving castle (there's also a book!)
-- the tale of princess kaguya (its so underratedaassswjbuadbguyqwguqg)
+- apothecary diaries
 </div>
 </div>
 
-<div class='card' markdown='1' style="width: 700px; left: 140px; top: -140px; z-index:-1">
+<div class='card' markdown='1' style="width: 520px; left:150px; top:-150px;">
 <div class='head' markdown='1'>books</div>
-<div class='card_body' markdown='1'>
+<div class='card_body' markdown='1' style="height: 400px;">
+
 currently i like sci-fi, dystopian, mystery, classics and short stories
 
-- and then there were none - agatha christie
-- a study in scarlet - arthur conan doyle
-- children of dune - frank herbert (has been in progress for over a year)
-- no longer human - osamu dazai (i love bsd)
-- fahrenheit 451 - ray bradbury
-- 1984 - george orwell
-- 3 body problem series - cixin liu
-- howls moving castle (1 and 2) - dianna wynne jones
-- another - yukito ayatsuji
-- (plus 11 light novels from bsd)
+| book                                           | author             |
+|------------------------------------------------|--------------------|
+| and then there were none                       | agatha christie    |
+| a study in scarlet                             | arthur conan doyle |
+| children of dune (in progress for over a year) | frank herbert      |
+| no longer human (i love bsd)                   | osamu dazai        |
+| fahrenheit 451                                 | ray bradbury       |
+| 1984                                           | george orwell      |
+| 3 body problem series                          | cixin liu          |
+| howls moving castle (1 and 2)                  | dianna wynne jones |
+| another                                        | yukito ayatsuji    |
 
-short stories:
+(plus 11 bsd light novels and a bunch of apothecary diaries lns)
 
-- the egg - andy weir
-- i have no mouth but i must scream - harlan ellison
-- the monkey's paw - w.w. jacobs
+# short stories:
+
+- the egg
+- i have no mouth but i must scream
+- the monkey's paw
+
 </div>
 </div>
