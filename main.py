@@ -32,7 +32,9 @@ with open(f'templates/nav.html', 'w') as file:
 
 if os.path.exists('public'):
     rmtree('public', ignore_errors=True)
+
 os.makedirs('public')
+print("helloelooe")
 
 for page in os.listdir('content'):
     page = os.path.splitext(page)[0]
