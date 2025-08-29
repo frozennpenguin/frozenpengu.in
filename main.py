@@ -27,14 +27,14 @@ pages = [{'name': os.path.splitext(page)[0]} for page in os.listdir('content')]
 env = Environment(loader=PackageLoader('main', 'templates'))
 template = env.get_template('nav_temp.html')
 nav = template.render(pages=pages)
-with open(f'templates/nav.html', 'w') as file:
+with open(f'nav.html', 'w') as file:
     file.write(nav)
 
 if os.path.exists('public'):
     rmtree('public', ignore_errors=True)
 
-os.makedirs('public', exist_ok=True)
+os.makedirs('public')
 
 for page in os.listdir('content'):
     page = os.path.splitext(page)[0]
-    make_page(page)
+    make_page(page) 
